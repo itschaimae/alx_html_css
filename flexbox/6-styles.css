@@ -190,7 +190,9 @@
   /* Navbar
       ============================= */
   
- 
+ .nav {
+   diplay: flex 
+ }
   
   .nav .nav-item {
     font-family: var(--nav-item-font-family);
@@ -227,9 +229,7 @@
     background-color: var(--color-primary);
     width: 100%;
   }
- .nav {
-   diplay: flex 
- }
+ 
 
 
 .nav .nav-item + .nav-item {
