@@ -8,14 +8,40 @@
     scroll-behavior: smooth;
 }
 
-header{
-  width: 1103.4078369140625px
-  height: 29.46099090576172px
-  top: 35.02320098876976px
-  left: 171.5922088623048px
-  padding: 0px 0.00006103515625px 0px 0px
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 1.3em;
+  }
+  
+  .header img {
+    max-height: 50px;
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color:white;
+  }
+
+section{
+    padding: 100px 200px;
+
 }
-                
+
+.first {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(Object.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
